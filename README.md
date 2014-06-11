@@ -6,7 +6,7 @@ A function for loading CSS asynchronously
 
 Place stylesheet(s) with `class=loadCSS` and *without* `rel=stylesheet` attribute.
 
-Then place and call the [`loadCSS` function](https://github.com/hail2u/loadCSS/blob/master/loadCSS.js) inline in the end of `head` of your page (it can also be included in an external JavaScript file if preferable).
+Then place and call the [`loadCSS` function](https://github.com/hail2u/loadCSS/blob/by-adding-rel-stylesheet/loadCSS.js) inline in the end of `head` of your page (it can also be included in an external JavaScript file if preferable).
 
 ``` html
 <head>
