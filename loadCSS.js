@@ -1,9 +1,11 @@
 /*!
-loadCSS: load a CSS file asynchronously.
-Licensed http://hail2u.mit-license.org/2014
-*/
+ * loadCSS: load a CSS file asynchronously.
+ *
+ * License: http://hail2u.mit-license.org/2014
+ */
 function loadCSS(){
-	"use strict";
+	'use strict';
+
 	var css = document.querySelectorAll('link.loadCSS');
 
 	for (var i = 0, l = css.length; i < l; i++) {
